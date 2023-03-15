@@ -1,6 +1,6 @@
 <!--![](https://github.com/Aldi098/Aldi098/blob/main/20220122_162251.jpg)-->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=green&size=30&center=true&vCenter=true&lines=Hello%2C;I+am+Ismail+Djaini">
+  <img src="https://readme-typing-svg.herokuapp.com?color=green&size=30&center=true&vCenter=true&lines=Hi...!👋%2C;I+am+Ismail+Djaini">
 </p>
 <p align="center">
 <a href="https://github.com/i-djaini/"><img src="https://img.shields.io/badge/-Github-FFA116?style=for-the-badge&logo=Github&logoColor=black"/> </a>
@@ -16,3 +16,24 @@
     <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=i-djaini&theme=dark&hide_border=true&layout=compact"></td>
   </tr>
 </table>
+
+**💻 &nbsp;My Biodata**
+```python
+class Bio:
+     def __init__(self):
+          self.data()
+     def data(self):
+          Biodata = {
+           "Full name": "Ismail Djaini",
+           "Nick name": "i-djaini",
+           "Status": "Student",
+           "City": "Gorontalo",
+           "Province": "Gorontalo",
+           "Country": "Indonesia",
+           "Age": "21 years",
+           "Birthday": "xx/xx/2001"
+          } 
+          print (Biodata)
+if __name__=="__main__":
+      Bio()
+```
