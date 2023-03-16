@@ -1,9 +1,9 @@
 <h3 align="center">
   <img src="https://emoji.discord.st/emojis/768b108d-274f-4f44-a634-8477b16efce7.gif" width="25">
   &nbsp; 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝙼𝚈 𝙿𝚁𝙾𝙵𝙸𝙻𝙴&nbsp;
-  <img src="https://emoji.discord.st/emojis/768b108d-274f-4f44-a634-8477b16efce7.gif" width="25">
+  <img src="https://emoji.discord.st/emojis/768b108d-274f-4f44-a634-8477b16efce7.gif" width="25"></h3>
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=green&size=30&center=true&vCenter=true&lines=Hi...!👋%2C;I+am+Ismail+Djaini">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F70C&center=true&width=435&lines=Hi+.+.+.+%F0%9F%91%8B;I+am+Ismail+Djaini" alt="Typing SVG" /></a>
 </p>
 <p align="center">
 <a href="https://github.com/i-djaini/"><img src="https://img.shields.io/badge/-Github-FFA116?style=for-the-badge&logo=Github&logoColor=black"/> </a>
