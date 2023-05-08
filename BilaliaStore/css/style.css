@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f1f1ee;
+  color: rgb(8, 7, 7);
+  
+}
+
+/* ! Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 7%;
+  background-color: rgb(172, 231, 210);
+  border-bottom: 1px solid #cac8c8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999999;
+}
+
+.navbar .navbar-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.navbar .navbar-logo span {
+  color: #414141;
+}
+
+.navbar .navbar-nav a {
+  color: #414141;
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+}
+
+.navbar .navbar-nav a:hover {
+  color: #c2c2c2;
+}
+
+.navbar .navbar-nav a::after {
+  content: '';
+  display: block;
+  border-bottom: 0.1rem solid #ffffff;
+  transform: scaleX(0);
+  transition: 0.3s linear;
+}
+
+.navbar .navbar-nav a:hover::after {
+  transform: scaleX(0.5);
+}
+
+.navbar .navbar-extra a {
+  color: #4e4e4e;
+  margin: 0 0.5rem;
+}
+
+.navbar .navbar-extra a:hover {
+  color: black;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+/* ! Style Hero Section Awal*/
+.hero {
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  background-image: url('../img/bg-hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero .content {
+  padding: 0.8rem 7%;
+  max-width: 60rem;
+}
+
+.hero .content h1 {
+  font-size: 5em;
+  color: #ffffff;
+}
+
+.hero .content p {
+  font-size: 2rem;
+  color: #ffffff;
+}
+/* ! Style Hero Section Akhir*/
+
+
+/* ! Media Queris */
+
+
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+/* Mobile */
+@media (max-width: 550px) {
+  html {
+    font-size: 56%;
+  }
+  #hamburger-menu {
+    display: inline-block;
+  }
+  .navbar .navbar-nav {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background: #e0e0d8;
+    width: 30rem;
+    height: 100vh;
+  }
+  .navbar .navbar-nav.active {
+    right: 0;
+  }
+  .navbar .navbar-nav a{
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+  }
+  .navbar .navbar-nav a::after {
+    transform-origin: 0 0;
+  }
+  .navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.2);
+
+  }
+}
